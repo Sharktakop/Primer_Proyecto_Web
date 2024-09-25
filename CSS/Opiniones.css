@@ -1,0 +1,102 @@
+/*-----Barra de color para el apartado de opiniones-----*/
+#Navbar{
+    background-color: rgb(1, 132, 169);
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+/*-----Cambiar del color tras pasar el cursor sobre cada sección-----*/
+.itemNav:hover{
+    background-color: rgb(255, 127, 80); 
+}
+/*-----Título Dinámico-----*/
+.Titulo_Principal{
+    text-align: center;
+    font-size: 40px;
+    animation-duration: 4s;
+    animation-name: Titulo_Dinamico;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+/*-----Cambio de Color-----*/
+@keyframes Titulo_Dinamico{
+    0%{
+       margin-left: 35%;
+       color:rgb(58, 179, 235);
+    }
+    25%{
+       margin-right: 15%;
+       margin-left: 25%;
+       color:rgb(56, 176, 232);
+    }
+    50%{
+       margin-left:20%;
+       margin-right:20%;
+       color:rgb(46, 147, 194);
+    }
+    75%{
+       margin-right: 25%;
+       margin-left: 15%;
+       color:rgb(40, 127, 167);
+    }
+    100%{
+       margin-right: 35%;
+       color:rgb(34, 107, 142);
+    }
+   }
+   #buscar{
+      background-color:rgb(1, 132, 169) ;
+      border: none;
+      width: 30px;
+   }
+   #Contenido{
+      padding: 30px;
+      width: 100%;
+      text-align: center;
+   }
+
+   #Contenido img{
+      width: 25%;
+   }
+
+   .Comentarioss{
+      width: 85%;
+      margin: 15px auto;
+      border: 1px solid black;
+      background-color: white;
+      padding: 25px;
+      text-align: center;
+   }
+   
+   .Comentarioss a{
+      color: rgb(14, 79, 220);
+   }
+   .Comentarioss u{
+      color: rgb(14, 79, 220);
+   }
+   #Publicacion{
+      margin: 20px;
+      border: 1px solid black;
+      padding: 20px;
+      background-color: white;
+   }
+   #titulo{
+      height: 30px;
+      width: 70%;
+   }
+   #contenido_publicacion{
+      height: 30px;
+      width: 70%;
+   }
+   .btnGroup{
+      text-align: center;
+      width: 100%;
+      height: 30px;
+   }
+
+   #Cancelar{
+      background-color: rgb(216, 38, 38);
+   }
+   #Aceptar{
+      background-color: rgb(46, 186, 34);
+   }
+

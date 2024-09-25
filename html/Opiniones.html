@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones</title>
+    <link rel= "icon" type = "image/x-icon" href ="../Imagenes/Flor/favicon-16x16.png">
+</head>
+<style>
+    @import '../CSS/Cambios_Basicos.css';
+    @import '../CSS/Opiniones.css';
+</style>
+<body>
+    <h1 class="Titulo_Principal"> Animales Fantásticos </h1>
+    <nav id="Navbar">
+        <ul>
+            <li class="itemNav"><a href="../html/Index.html"> Inicio </a></li>
+            <li class="itemNav"><a href="../html/Animales_Acuacticos.html">Animales Acuaticos</a></li>
+            <li class="itemNav"><a href="../html/Animales_Aéreos.html">Animales Aéreos</a></li>
+            <li class="itemNav"><a href="../html/Animales_Terrestres.html">Animales Terrestres</a></li>
+            <li class="itemNav"><a href="../html/Opiniones.html">Dejános tu opinion</a></li>
+            <li class="itemNav"><a href="../html/Iniciar_Sesion.html">Iniciar Sesion</a></li>
+            <li class="itemNav1">
+                <form action="https://www.google.com/search" method="get" enctype="multipart/form-data">
+                    <input type="text" id="barra" name="query" placeholder="¿Qué le interesa buscar?" aria-label="Buscar">
+                    <button id="buscar" type="submit">🔍︎</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="Contenido">
+        <div class="Comentarioss">
+            <h2>Fauna Marina</h2>
+            <p>Lo que <b>Joaquin</b> nos comenta es lo siguiente:</p>
+            <a href="../html/Opiniones_Extendido_1.html"><u>Ver más...</u></a>
+        </div></br>
+        <div class="Comentarioss">
+            <h2>¡Los insectos también son importantes!</h2>
+            <p>Lo que <b>Camilo</b> nos comenta es lo siguiente:</p>
+            <a href="../html/Opiniones_Extendido_2.html"><u>Ver más...</u></a>
+        </div></br>
+        <div id="Publicacion">
+            <form>
+                <h1>¡Publica tu opinión!</h1>
+                <fieldset>
+                <legend>Datos de publicacion</legend>
+                <label for="tittle"><b>Título de publicacion</b></label></br>
+                <input type = "text" id="titulo" name="title"></br></br>
+                <label for="tittle"><b>Acerca de:</b></label></br>
+                <textarea id="contenido_publicacion" name="content"></textarea></br></br>
+                <input type = "file"></br></br>
+                <div class="btnGroup">
+                    <button id="Cancelar" class="boton">Cancelar</button>
+                    <input type="submit" id="Aceptar" class="boton" value="Guardar"/></br></br>
+                </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* Aquí se encontrará todos los cambios visuales por medio del css */
+/*-----Eliminar los Espacios Presentes en el navbar-----*/
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 229, 220);
+}
+/*-----Evitar los cambios que se generan  al vincular los distintos html-----*/
+a{
+    color:inherit;
+    text-decoration: none;
+}
+/*-----Apartados o Botones de distintas secciones de la pagina-----*/
+.itemNav{
+    margin-left: 20px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(243, 229, 220);
+    padding: 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+}
+.itemNav1{
+    margin-left: 20px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(243, 229, 220);
+    padding: 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+}
+#barra{
+    border: none;
+    border-radius: 5px;
+    width: auto;
+}
+#imagenes{
+    height: auto;
+    text-align: center;
+    width: auto;
+   }
+
